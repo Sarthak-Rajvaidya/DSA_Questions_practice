@@ -26,7 +26,7 @@ int main(){
         int needed = target - arr[i];
 
         if(mpp.find(needed) != mpp.end()){
-            cout<<mpp[needed]<<""<<i;
+            cout<<mpp[needed]<<" "<<i;
         }
 
         mpp[arr[i]] = i;
