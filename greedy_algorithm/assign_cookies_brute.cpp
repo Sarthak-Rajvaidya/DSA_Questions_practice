@@ -31,6 +31,6 @@ int main(){
 
     vector<bool> used(s.size(), false);
 
-    return f(0,g,s,used)
+    return f(0,g,s,used);
 
 }
